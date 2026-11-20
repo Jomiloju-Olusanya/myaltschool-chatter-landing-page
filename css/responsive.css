@@ -1,0 +1,317 @@
+/* Tablet */
+@media screen and (max-width: 992px) {
+  .navlinks {
+    gap: 1rem;
+  }
+
+  .header-actions {
+    gap: 5rem;
+  }
+
+  .hero {
+    min-height: 650px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .cta-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-images {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-navigation {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+/* Mobile menu */
+.menu-toggle {
+  display: none;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: min(92%, 100%)
+  }
+
+  .header {
+    padding: 1rem;
+    height: auto;
+  }
+
+  .header-container {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation,
+  .header-actions {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .logo img {
+    width: 140px;
+  }
+
+  .hero {
+    min-height: 90vh;
+    padding: 2rem 1.25rem;
+    text-align: center;
+    background-position: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+
+  .hero-content p {
+    max-width: 100%;
+    font-size: 1rem;
+    margin-inline: auto;
+  }
+
+  .hero .button {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .about {
+    padding: 4rem 0;
+  }
+
+  .about-container {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .about-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-image {
+    order: -1;
+  }
+
+  /* .features {
+    padding: 4rem 0;
+  } */
+
+  .features .features-container {
+    max-width: 100%;
+    max-width: 100;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .features .features-container h2 {
+    width: 100;
+    max-width: none;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .features .features-container p {
+    width: 100%;
+    max-width: none;
+  }
+
+  .features .cards {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 1.5rem;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .card-icon img {
+    margin-inline: auto;
+  }
+
+  .testimonial {
+    padding: 4rem 0;
+  }
+
+  .testimonial .testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .testimonial-image img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .testimonial .testimonial-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .testimonial .testimonial-author strong {
+    display: block;
+    width: 100%;
+    text-align:center;
+    font-size: 1.5rem;
+  }
+
+  .testimonial .testimonial-author span {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .cta {
+    padding: 4rem 0;
+  }
+
+  .cta .cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .cta .cta-images {
+    display: grid;
+    grid-template-columns: repeat(2fr, 80px);
+    justify-content: center;
+    gap: 1rem;
+    position: static;
+    width: 280px;
+    height: auto;
+    margin: 0 auto 2rem;
+  }
+
+  .cta .icon {
+    position: static;
+    width: 120px;
+    height: 120px;
+  }
+
+  .icon-one {
+    grid-column: 1 / span 2;
+    justify-self: center;
+  }
+
+  .icon-two {
+    justify-self: start;
+  }
+
+  .icon-three {
+    justify-self: end;
+  }
+
+  .cta .cta-container {
+    padding: 0;
+  }
+
+  .cta .cta-content {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .cta .cta-content h2 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .cta .cta-content p {
+    width: 100%;
+  }
+
+  .cta .button {
+    width: 100%;
+    max-width: 220px;
+    margin-inline: auto;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .footer .footer-brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer .footer-logo {
+    margin: 0;
+  }
+
+  .footer .footer-logo img {
+    margin: o auto;
+  }
+
+  .footer .footer-navigation {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .footer-column ul {
+    gap: 0.8rem;
+  }
+}
